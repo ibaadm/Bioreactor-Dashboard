@@ -1,8 +1,10 @@
 # Bioreactor Dashboard
 
-A dual-page Node-RED dashboard for a bioreactor IoT control system. This repository covers the Node-RED dashboard side: a companion [repository](https://github.com/ibaadm/Bioreactor-Dashboard) hosts the embedded C++ firmware used to sense and actuate the system.
+A dual-page Node-RED dashboard for a bioreactor IoT control system. This repository covers the dashboard side: a companion [repository](https://github.com/ibaadm/Bioreactor-Dashboard) hosts the embedded C++ firmware used to sense and actuate the system.
 
 ## Overview
+
+The dashboard consists of three main components:
 
 - **Monitor page** - live time-series charts and gauges for temperature, stirring speed, and pH
 - **Control page** - setpoint sliders for each subsystem and per-subsystem kill switches (pumps, heating, motor)
